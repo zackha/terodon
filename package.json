@@ -1,7 +1,7 @@
 {
   "name": "terodon",
   "version": "0.0.1",
-  "repository": "nuxt/content",
+  "repository": "zackha/terodon",
   "license": "MIT",
   "files": [
     "src"
