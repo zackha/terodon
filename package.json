@@ -1,6 +1,6 @@
 {
   "name": "terodon",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": "zackha/terodon",
   "license": "MIT",
   "files": [
@@ -8,27 +8,27 @@
   ],
   "main": "src/",
   "dependencies": {
-    "@docsearch/css": "^3.3.2",
-    "@docsearch/js": "^3.3.2",
-    "@nuxt/content": "^2.4.0",
+    "@docsearch/css": "^1.0.0-alpha.28",
+    "@docsearch/js": "^1.0.0-alpha.28",
+    "@nuxt/content": "^1.15.1",
     "@nuxt/types": "^2.15.2",
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/google-fonts": "2.0.0",
+    "@nuxtjs/color-mode": "^2.0.3",
+    "@nuxtjs/google-fonts": "1.2.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/tailwindcss": "^6.2.0",
-    "@tailwindcss/typography": "0.5.9",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/typography": "0.2.0",
     "clipboard": "^2.0.6",
     "defu": "^3.2.2",
     "lodash.groupby": "^4.6.0",
-    "marked": "^4.2.12",
+    "marked": "^2.0.1",
     "nuxt-i18n": "^6.20.4",
     "prism-themes": "^1.5.0",
-    "tailwind-css-variables": "^3.0.1",
+    "tailwind-css-variables": "^2.0.3",
     "theme-colors": "^0.0.5",
     "vue-scrollactive": "^0.9.3"
   },
   "devDependencies": {
-    "nuxt": "^2.15.8"
+    "nuxt": "^2.15.2"
   },
   "types": "./src/index.d.ts"
 }
