@@ -1,39 +1,86 @@
-# @nuxt/content-theme-docs
+[![Docus](https://user-images.githubusercontent.com/904724/194751054-9a267ea6-be9d-420b-9935-c76bf30baaf3.png)](https://docus.dev)
+
+## Docus
 
 [![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
-[![lerna][lerna-src]][lerna-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Volta][volta-src]][volta-href]
 
-> Create your documentation with @nuxt/content docs theme in seconds!
+> Docus is the fastest way to create document-driven websites.
 
-## Getting Started
+- [📄 Documentation](https://docus.dev)
+- [⚡️ Play on StackBlitz](https://stackblitz.com/github/nuxt-themes/docus-starter)
+
+## Start a project with Docus
+
+You can use [this template](https://github.com/nuxt-themes/docus-starter) to create a new project.
+
+If you want to add Docus to an existing codebase, you can do so with:
+
+- Install the dependency:
 
 ```bash
-# Yarn
-yarn create nuxt-content-docs <project-name>
-
-# NPX
-npx create-nuxt-content-docs <project-name>
+npm install @nuxt-themes/docus
 ```
 
-It's as simple as that!
+- Add it to your extends key in `nuxt.config`:
 
-[📖 Read more](https://content.nuxtjs.org/themes/docs)
+```ts
+defineNuxtConfig({
+  extends: '@nuxt-themes/docus'
+})
+```
 
-## License
+## Features ✨
 
-[MIT License](../../LICENSE)
+- **+50 Components** ready to build rich pages
+- **Article**, **Docs** and **Blog** layouts
+- Start from a `README`, scale to a framework documentation
+- Table of contents support
+- Configurable design system integration
+- Replace, extend, customize any component in a breeze
+- Leverages [**@nuxt-themes/typography**](https://github.com/nuxt-themes/typography)
+- Used on [Content Documentation](https://content.nuxtjs.org)
+
+## They are using it 🎨
+
+- [nuxt/http](https://github.com/nuxt/http)
+- [nuxt/content](https://github.com/nuxt/content)
+- [nuxt/image](https://github.com/nuxt/image)
+- [nuxt-modules/tailwindcss](https://github.com/nuxt-modules/tailwindcss)
+- [nuxt-modules/strapi](https://github.com/nuxt-modules/strapi)
+- [nuxt-modules/sanity](https://github.com/nuxt-modules/sanity)
+- [nuxt-modules/i18n](https://github.com/nuxt-modules/i18n)
+- [nuxt-modules/color-mode](https://github.com/nuxt-modules/color-mode)
+- [nuxt-modules/apollo](https://github.com/nuxt-modules/apollo)
+- [nuxt-community/ackee-module](https://github.com/nuxt-community/ackee-module)
+- [hubble-exchange/docs](https://github.com/hubble-exchange/docs)
+- [sidebase](https://sidebase.io)
+- [haraka](https://github.com/haraka/haraka.github.io)
+- [pinia-orm](https://github.com/CodeDredd/pinia-orm)
+- [Do you use Docus? Get listed here!](https://github.com/nuxt-themes/docus/issues/713)
+
+## Contributing 🙏
+
+1. Clone this repository
+2. Install dependencies using `yarn install` or `npm install`
+3. Run `npm run prepare` to generate type stubs.
+4. Use `npm run dev` to start [playground](./playground) in development mode.
+
+## License 📎
+
+[MIT License](./LICENSE)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/content-theme-docs/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxt/content-theme-docs
+[npm-version-src]: https://img.shields.io/npm/v/@nuxt-themes/docus/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@nuxt-themes/docus
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxt/content-theme-docs.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxt/content-theme-docs
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxt-themes/docus.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@nuxt-themes/docus
 
-[license-src]: https://img.shields.io/npm/l/@nuxt/content.svg
-[license-href]: https://npmjs.com/package/@nuxt/content
+[license-src]: https://img.shields.io/github/license/nuxt-themes/docus.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://github.com/nuxt-themes/docus/blob/main/LICENSE
 
-[lerna-src]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg
-[lerna-href]: https://lerna.js.org/
+[volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
+[volta-href]: https://volta.net/nuxt-themes/docus?utm_source=readme_docus
