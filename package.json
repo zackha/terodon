@@ -12,11 +12,11 @@
     "@docsearch/js": "^3.3.2",
     "@nuxt/content": "^1.15.1",
     "@nuxt/types": "^2.15.2",
-    "@nuxtjs/color-mode": "^2.0.3",
+    "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/google-fonts": "2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/tailwindcss": "^3.4.3",
-    "@tailwindcss/typography": "0.2.0",
+    "@nuxtjs/tailwindcss": "^6.3.0",
+    "@tailwindcss/typography": "0.5.9",
     "clipboard": "^2.0.6",
     "defu": "^3.2.2",
     "lodash.groupby": "^4.6.0",
@@ -29,6 +29,9 @@
   },
   "devDependencies": {
     "nuxt": "^2.15.8"
+  },
+  "resolutions": {
+    "@nuxt/kit": "3.0.0-rc.13"
   },
   "types": "./src/index.d.ts"
 }
